@@ -5,6 +5,10 @@
 Um produto WeFind · Case de Product Design · 2026
 Design e desenvolvimento por **Ana Luiza Marilac**
 
+**▶ [Acessar o protótipo](https://chama-umber.vercel.app)** · [Decisões do projeto](./regras.md) · [Portfólio da autora](https://analuizamarilac.vercel.app/)
+
+> Use uma única aba: os dados ficam em memória durante a sessão.
+
 ---
 
 ## O problema
