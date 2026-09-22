@@ -266,6 +266,14 @@ Herdados do template, **não introduzidos por esta implementação**:
   outros. São arquivos do template, não foram tocados. **O código escrito para este case passa
   no `biome check` sem avisos.**
 
+- `vite.config.ts` usava `base: ""`, o que faz o Vite emitir caminhos **relativos** para os
+  assets. Em produção, abrir uma rota aninhada como `/solicitante/nova` resolvia
+  `./assets/index.js` para `/solicitante/assets/index.js`, que o rewrite de SPA devolvia como
+  HTML — página em branco e erro de MIME type. O `basepath` do `src/router.tsx` do próprio
+  template já usava `"/"`, ou seja, os dois estavam inconsistentes. **Corrigido** para
+  `process.env.VITE_BASE_URL || "/"`, preservando a variável de ambiente. Só aparece em build
+  servido a partir de uma rota profunda, e por isso passou despercebido até o primeiro deploy.
+
 ### Ajustes feitos no código do case (não pré-existentes)
 
 - `AccordionTrigger` do template não define largura própria. No card do Entregador o botão
