@@ -1,0 +1,15 @@
+{
+  "short_name": "Chama",
+  "name": "Chama — um produto WeFind",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "212x224",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#17233C",
+  "background_color": "#FFF8F3"
+}

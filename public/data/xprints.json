@@ -1,0 +1,58 @@
+{
+  "breakpoints": {
+    "desktop": {
+      "width": 1440,
+      "height": 960
+    },
+    "tablet": {
+      "width": 1024,
+      "height": 1366
+    },
+    "mobile": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  "previews": [
+    {
+      "title": "Início",
+      "description": "Seletor de perfil do protótipo, usado apenas para avaliação.",
+      "path": "/"
+    },
+    {
+      "title": "Sobre o Chama",
+      "description": "Página que explica o problema, a solução e as decisões de produto do case.",
+      "path": "/sobre"
+    },
+    {
+      "title": "Solicitante — Minhas solicitações",
+      "description": "Listagem das solicitações da loja, com o andamento de cada atendimento.",
+      "path": "/solicitante"
+    },
+    {
+      "title": "Solicitante — Nova solicitação",
+      "description": "Formulário de pedido de contato com painel de acompanhamento ao lado.",
+      "path": "/solicitante/nova"
+    },
+    {
+      "title": "Entregador",
+      "description": "Caixa de entrada do entregador, com telefone da loja, mensagem e registro de atendimento.",
+      "path": "/entregador"
+    },
+    {
+      "title": "Admin — Solicitações",
+      "description": "Painel da operação com indicadores, filtros e tabela de todas as solicitações.",
+      "path": "/admin"
+    },
+    {
+      "title": "Admin — Entregadores",
+      "description": "Carga de solicitações por entregador e suas linhas internas.",
+      "path": "/admin/entregadores"
+    },
+    {
+      "title": "Admin — Configurações",
+      "description": "Parâmetros em vigor no protótipo, somente leitura.",
+      "path": "/admin/configuracoes"
+    }
+  ]
+}

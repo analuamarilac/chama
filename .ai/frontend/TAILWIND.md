@@ -1,0 +1,5 @@
+- Exportar classes do Tailwind em um arquivo styles.ts
+- Priorizar a criação de variações com a lib tailwind-variants
+- Mergear classNames com a lib tailwind-merge, exceto quando o estilo for criado com tailwind-variants
+- Evitar usar estilos direto com style
+- Priorizar o uso do data-attributes no lugar de states

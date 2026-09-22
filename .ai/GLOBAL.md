@@ -1,0 +1,21 @@
+- Priorizar Verificação se uma variável tem valor Falsy
+- Verificação de variáveis do tipo number quando 0 é um valor possível
+- Priorizar a criação de variáveis para expressões lógicas
+- Priorizar a declarações de if que tiverem mais de 3 condições devem ser colocadas em uma variável externa.
+- Priorizar expressões lógicas positivas
+- Priorizar o padrão de Early Return para substituir o operador ternário aninhado
+- Priorizar em arrays o some ao invés do find para validar uma condição lógica
+- Priorizar Object com literais ao invés de Switch
+- Utilizar try/catch para tratativa de erros
+- Reduzir blocos e elseif encadeados usando o padrão de Early Return
+- Evitar uso de Syntatic Sugars para conversão
+- Sempre deixar explicitamente os valores dos Enums
+- Variáveis em camelCase
+- Constantes (imutáveis) de tipos básicos em UPPER_SNAKE_CASE
+- Variáveis do tipo Object ou Array com campos de valores constantes em PascalCase
+- Classes em PascalCase
+- Nomes de rotas em constantes e em kebab-case (para rotas de front e back)
+- Não utilizar do tipo Any
+- Utilizar o Nullish operator para validar undefined
+- Realizar exports de qualquer elemento sempre no final do arquivo
+- Prioziar o uso do NPM

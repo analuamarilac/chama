@@ -1,0 +1,3 @@
+- NUNCA ALTERAR/CRIAR ARQUIVOS DENTRO DO DIRETORIO ./src/scripts e ./src/routes/xprints
+- Sempre ler o arquivo .ai/GLOBAL.md e aplicar TODAS suas diretrizes
+- Ler o arquivo .ai/STANDARDS.md para mais instruções
